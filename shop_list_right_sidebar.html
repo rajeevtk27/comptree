@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Basic page needs -->
+<meta charset="utf-8">
+<!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Comptree</title>
+<meta name="description" content="">
+
+<!-- Favicon  -->
+<link rel="shortcut icon" type="images/comptree logo.png" href="images/comptree logo.png">
+
+<!-- Mobile specific metas  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS Style -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="shop_list_page">
+<!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+<div id="page"> 
+  <!-- Header -->
+  <header id="header">
+    
+  
+  
+  
+   
+  
+  <div  class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-body">
+        <button type="button" class="close myclose" data-dismiss="modal">×</button>
+        <div class="product-view-area">
+          <div class="product-big-image col-xs-12 col-sm-5 col-lg-5 col-md-5">
+            <div class="icon-sale-label sale-left">Sale</div>
+            <div class="slider-items-products">
+              <div id="previews-list-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col6"> <a href="images/products/img03.jpg" class="cloud-zoom-gallery" id="zoom1"> <img class="zoom-img" src="images/products/img03.jpg" alt="products"> </a> <a href='images/products/img01.jpg' class="cloud-zoom-gallery"><img src="images/products/img01.jpg" alt = "Thumbnail 2"/></a> <a href='images/products/img07.jpg' class="cloud-zoom-gallery"><img src="images/products/img07.jpg" alt = "Thumbnail 1"/></a> <a href='images/products/img02.jpg' class="cloud-zoom-gallery"><img src="images/products/img02.jpg" alt = "Thumbnail 1"/></a> <a href='images/products/img04.jpg' class="cloud-zoom-gallery"><img src="images/products/img04.jpg" alt = "Thumbnail 2"/></a> </div>
+              </div>
+            </div>
+            
+            <!-- end: more-images --> 
+            
+          </div>
+          <div class="col-xs-12 col-sm-7 col-lg-7 col-md-7 product-details-area">
+            <div class="product-name">
+              <h1>Lorem Ipsum is simply</h1>
+            </div>
+            <div class="price-box">
+              <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> $329.99 </span> </p>
+              <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> $359.99 </span> </p>
+            </div>
+            <div class="ratings">
+              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+              <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Your Review</a> </p>
+              <p class="availability in-stock pull-right">Availability: <span>In Stock</span></p>
+            </div>
+            <div class="short-description">
+              <h4>Quick Overview</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. 
+            </div>
+            <div class="product-color-size-area">
+              <div class="color-area">
+                <h2 class="saider-bar-title">Color</h2>
+                <div class="color">
+                  <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="size-area">
+                <h2 class="saider-bar-title">Size</h2>
+                <div class="size">
+                  <ul>
+                    <li><a href="#">S</a></li>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">XL</a></li>
+                    <li><a href="#">XXL</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-variation">
+              <form action="#" method="post">
+                <div class="cart-plus-minus">
+                  <label for="qty">Quantity:</label>
+                  <div class="numbers-row">
+                    <div onClick="var result = docuMent.getEleMentById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 0 ) result.value--;return false;" class="dec qtybutton"><i class="fa fa-minus">&nbsp;</i></div>
+                    <input type="text" class="qty" title="Qty" value="1" maxlength="12" id="qty" name="qty">
+                    <div onClick="var result = docuMent.getEleMentById('qty'); var qty = result.value; if( !isNaN( qty )) result.value++;return false;" class="inc qtybutton"><i class="fa fa-plus">&nbsp;</i></div>
+                  </div>
+                </div>
+                <button class="button pro-add-to-cart" title="Call" type="button"><span><i class="fa fa-shopping-cart"></i> Add to Cart</span></button>
+              </form>
+            </div>
+            <div class="product-cart-option">
+              <ul>
+                <li><a href="wishlist.html"><i class="fa fa-heart"></i><span>Add to Wishlist</span></a></li>
+                <li><a href="#"><i class="fa fa-retweet"></i><span>Add to Compare</span></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i><span>Email to a Friend</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer"> <a href="#" class="btn-services-shop-now" data-dismiss="modal"></a> </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Footer --> 
+
+
+<!-- jquery js --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+
+<!-- bootstrap js --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+<!-- owl.carousel.min js --> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>  
+
+<!-- Mean Menu js --> 
+<script type="text/javascript" src="js/jquery.meanMenu.min.js"></script> 
+
+<!--jquery-ui.min js --> 
+<script type="text/javascript" src="js/jquery-ui.js"></script> 
+
+
+
+<!-- wow JS --> 
+<script type="text/javascript" src="js/wow.min.js"></script> 
+
+<!-- mobile Menu JS --> 
+<script type="text/javascript" src="js/jtv-mobile-Menu.js"></script> 
+
+<!-- main js --> 
+<script type="text/javascript" src="js/main.js"></script> 
+
+<!-- nivo slider js --> 
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script> 
+</body>
+</html>
